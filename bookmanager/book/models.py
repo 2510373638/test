@@ -24,7 +24,7 @@ class BookInfo(models.Model):
 class PeopleInfo(models.Model):
     '''人类'''
     # 人名
-    name = models.CharField(32)
+    name = models.CharField(max_length=32)
     # 年龄
     age = models.IntegerField()
     # gender为性别，True表示男，GENDER_CHOICE为性别元组值
