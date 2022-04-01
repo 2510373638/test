@@ -4,4 +4,5 @@ from book.views import *
 
 urlpatterns = [
     re_path(r'^$',index),
+    re_path(r'^booklist/$',booklist),
 ]
